@@ -1,0 +1,25 @@
+body{
+    background:rgba(37, 1, 83, 0.884);
+    color: #fff;
+}
+#frame001 {
+    border: 1px solid rgb(173, 187, 171);
+    border-radius: 2px;
+    text-align: center;
+    padding: 5px;
+}
+
+text{
+    font-size: 24px;
+}
+button{
+    background: rgba(122, 155, 103, 0.911);
+    height: 30px;
+    width: 60px;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px;
+}
+button:hover{
+    background: rgb(62, 187, 12);
+}
