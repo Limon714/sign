@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="#">
+        const settings = {
+	"async": true,
+	"crossDomain": true,
+	"url": "https://img4me.p.rapidapi.com/?text=Test%20Me&font=trebuchet&size=12&fcolor=000000&bcolor=FFFFFF&type=png",
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-host": "img4me.p.rapidapi.com",
+		"x-rapidapi-key": "f60054666bmsh93cc7725a58762dp1c611djsn7fcd1edb6bf8"
+	}
+};
+
+$.ajax(settings).done(function (response) {
+	console.log(response);
+});
+    </script>
+</body>
+</html>
